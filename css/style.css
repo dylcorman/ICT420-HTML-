@@ -1,114 +1,177 @@
 body {
     background-color: #faf9f8;
-    /* Soft off-white background */
     color: #1e1e1e;
-    /* Dark gray text for contrast */
     font-size: 1.1rem;
 }
 
 h1 {
     color: #2c3e50;
-    /* Dark blue-gray for main headings */
     background-color: #ecf0f1;
-    /* Light gray-blue background */
 }
 
 h2 {
     color: #34495e;
-    /* Slightly lighter blue-gray */
 }
 
 h3 {
     color: #16a085;
-    /* Teal green for subheadings */
 }
 
 p {
     color: #2d3436;
-    /* Very dark gray for body text */
     font-size: 1em;
 }
 
 nav ul {
     background-color: #2c3e50;
-    /* Dark blue background for navigation */
 }
 
 nav ul li a {
     color: #ecf0f1;
-    /* Light text on dark nav background */
 }
 
 footer {
     background-color: #2c3e50;
-    /* Match nav background */
     color: #bdc3c7;
-    /* Light gray footer text */
 }
 
 /* Target elements with specific class attributes */
 
 .highlight {
     background-color: #f1c40f;
-    /* Warm yellow highlight */
     color: #1e1e1e;
-    /* Dark text for contrast */
 }
 
 /* Target unique elements with specific ID attributes */
 
 #background {
     background-color: #d5dbdb;
-    /* Light gray for the background section */
     color: #1e1e1e;
-    /* Ensure text remains readable */
 }
 
 #skills {
     background-color: #a9c4c4;
-    /* Muted teal for skills section */
     color: #1e1e1e;
 }
 
 /* Target elements that are nested inside other elements */
 
 article section p {
-    color: #2c3e50;
-    /* All paragraphs in article sections get this color */
+    color: #2c3e50;/
 }
 
 footer p {
     color: #bdc3c7;
-    /* Footer paragraphs keep the light color */
     font-size: 0.9rem;
-    /* RELATIVE UNIT: slightly smaller in footer */
 }
 
 blockquote {
     background-color: #e8e8e8;
-    /* Light gray background for blockquotes */
     color: #1e1e1e;
-    /* Dark text for contrast */
 }
 
 
 a:link {
     color: #2980b9;
-    /* Blue for unvisited links */
 }
 
 a:visited {
     color: #8e44ad;
-    /* Purple for visited links */
 }
 
 a:hover {
     color: #c0392b;
-    /* Red when hovering */
     background-color: #f7f7f7;
 }
 
 a:active {
     color: #e67e22;
-    /* Orange when clicked */
+}
+
+/* MAIN LAYOUT BOXES */
+
+main {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #d0d0d0;
+    background-color: #ffffff;
+}
+
+/* Section styling */
+section {
+    margin: 2rem 0 1.5rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 3px solid #16a085;
+    background-color: #fcfcfc;
+}
+
+/* Paragraph styling within sections */
+section p {
+    margin: 0.75rem 0;
+    padding: 0.25rem 0;
+    line-height: 1.6;
+}
+
+/* NESTED BOX EXAMPLE */
+.box-demo-parent {
+    width: 300px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid #2c3e50;
+    background-color: #ecf0f1;
+}
+
+.box-demo-child-default {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e74c3c;
+    background-color: #fdfefe;
+    margin: 0;
+}
+
+.box-demo-child-borderbox {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #27ae60;
+    background-color: #fdfefe;
+    margin: 1rem 0 0 0;
+}
+
+/* Additional refinements for specific sections */
+#background,
+#skills,
+#approach,
+#contact {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+/* Navigation styling refinement */
+nav ul {
+    margin: 0;
+    padding: 0.75rem 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem 0 0;
+    display: inline;
+}
+
+nav ul li a {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem 1rem;
+    border-top: 3px solid #16a085;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    padding: 0;
 }
