@@ -119,6 +119,25 @@
         </article>
     </main>
 
+    <section id="box-model-demo">
+        <h3>Box Model Demonstration</h3>
+        <p>This example shows the difference between default content-box and border-box sizing.</p>
+
+        <div class="box-demo-parent">
+            <p>Parent container (width: 300px, padding: 1rem, border: 2px)</p>
+
+            <div class="box-demo-child-default">
+                <p><strong>Default box-sizing (content-box):</strong><br>
+                    width: 100% + padding + border = overflows parent</p>
+            </div>
+
+            <div class="box-demo-child-borderbox">
+                <p><strong>With box-sizing: border-box:</strong><br>
+                    width includes padding and border = fits perfectly</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2026 Dylan Corman. All content created with semantic HTML5.</p>
         <p>View the <a href="index.html">homepage</a> or learn <a href="about.html">more about me</a>.</p>
