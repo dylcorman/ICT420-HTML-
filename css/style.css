@@ -1,3 +1,239 @@
+/* ===== TYPOGRAPHY SYSTEM ===== */
+html {
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* Main font family for body text */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #1e1e1e;
+    background-color: #faf9f8;
+}
+
+/* Headings - sans-serif for clean hierarchy */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 1.5rem 0 0.5rem 0;
+    color: #2c3e50;
+}
+
+/* Hierarchical sizing - relative to root */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    border-bottom: 1px solid #16a085;
+    padding-bottom: 0.25rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #16a085;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Paragraph text - optimized for readability */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 1.25rem 0;
+    max-width: 70ch;
+    text-align: left;
+}
+
+/* First paragraph after headings - no indent, just normal */
+h1+p,
+h2+p,
+h3+p {
+    margin-top: 0;
+}
+
+/* Text indentation for paragraphs that follow paragraphs */
+p+p {
+    text-indent: 1.5em;
+    margin-top: 0;
+}
+
+/* ===== SEMANTIC TEXT ELEMENTS ===== */
+
+/* Emphasis - stress emphasis that changes meaning */
+em {
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Strong importance */
+strong {
+    font-weight: 700;
+    color: #c0392b;
+}
+
+/* Italic for technical terms, foreign words, alternate voice */
+i {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Citations for titles of works */
+cite {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Bold for labels, keywords, products (no semantic importance) */
+b {
+    font-weight: 600;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+/* Code elements - monospace stack */
+code,
+pre {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    background-color: #f0f0f0;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+pre {
+    padding: 1rem;
+    line-height: 1.4;
+    overflow-x: auto;
+    /* Handle long lines */
+    border: 1px solid #bdc3c7;
+}
+
+/* Blockquotes */
+blockquote {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    margin: 1.5rem 2rem;
+    padding: 0.5rem 1.5rem;
+    border-left: 4px solid #16a085;
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+blockquote cite {
+    display: block;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+/* ===== NAVIGATION TYPOGRAPHY ===== */
+
+nav ul {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #16a085;
+}
+
+/* ===== FOOTER TYPOGRAPHY ===== */
+
+footer {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    border-top: 2px solid #16a085;
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    text-indent: 0;
+    max-width: none;
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+
+
+/* ===== FORM TYPOGRAPHY ===== */
+
+fieldset {
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+label {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+button {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+}
+
+/* ===== ASIDE TYPOGRAPHY ===== */
+
+aside {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 0.95rem;
+    background-color: #f0f7f4;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+aside h3 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2c3e50;
+}
+
+aside ul {
+    line-height: 1.6;
+}
+
 body {
     background-color: #faf9f8;
     color: #1e1e1e;
