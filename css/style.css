@@ -423,3 +423,60 @@ img:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+/* Unordered lists with custom markers */
+ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+ul li::before {
+    content: "→";
+    color: #16a085;
+    font-weight: bold;
+    position: absolute;
+    left: -1.5rem;
+}
+
+/* Ordered lists with custom numbering */
+ol {
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+
+ol li {
+    counter-increment: item;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+ol li::before {
+    content: counter(item) ".";
+    color: #2c3e50;
+    font-weight: bold;
+    position: absolute;
+    left: -2rem;
+    width: 1.5rem;
+    text-align: right;
+}
+
+/* Navigation lists*/
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li::before {
+    content: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1.5rem;
+}
