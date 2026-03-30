@@ -30,82 +30,106 @@
                 <p>A collection of my work focusing on semantic structure and accessibility.</p>
             </header>
 
+            <!-- FLEXBOX GRID FOR CURRENT PROJECTS -->
             <section id="current">
                 <h3>Current Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>Semantic Website</h4>
+                        <p>A fully accessible site using proper HTML5 semantic elements.</p>
+                        <h5>Features Implemented:</h5>
+                        <ul>
+                            <li>Proper use of <code>&lt;article&gt;</code> for each *example*</li>
+                            <li><code>&lt;time&gt;</code> elements for *example*</li>
+                            <li>Semantic lists for *example*</li>
+                            <li>Accessible navigation between example sections</li>
+                        </ul>
+                        <p><a href="#details-recipe">View project details →</a></p>
+                    </div>
 
-                <article>
-                    <h4>Semantic Website</h4>
-                    <p>A fully accessible site using proper HTML5 semantic elements.</p>
+                    <div class="project-card">
+                        <h4>Accessible Documentation Portal</h4>
+                        <p>A technical documentation site with emphasis on keyboard navigation.</p>
+                        <h5>Key Accomplishments:</h5>
+                        <ul>
+                            <li>Skip-to-content links for screen readers</li>
+                            <li>Proper heading hierarchy throughout</li>
+                            <li>Semantic landmarks for navigation</li>
+                            <li>Printable styles using semantic markup</li>
+                        </ul>
+                        <p><a href="#details-docs">View project details →</a></p>
+                    </div>
 
-                    <h5>Features Implemented:</h5>
-                    <ul>
-                        <li>Proper use of <code>&lt;article&gt;</code> for each *example*</li>
-                        <li><code>&lt;time&gt;</code> elements for *example*</li>
-                        <li>Semantic lists for *example*</li>
-                        <li>Accessible navigation between example sections</li>
-                    </ul>
-
-                    <p><a href="#details-recipe">View project details</a></p>
-                </article>
-
-                <article>
-                    <h4>Accessible Documentation Portal</h4>
-                    <p>A technical documentation site with emphasis on keyboard navigation.</p>
-
-                    <h5>Key Accomplishments:</h5>
-                    <ul>
-                        <li>Skip-to-content links for screen readers</li>
-                        <li>Proper heading hierarchy throughout</li>
-                        <li>Semantic landmarks for navigation</li>
-                        <li>Printable styles using semantic markup</li>
-                    </ul>
-
-                    <p><a href="#details-docs">View project details</a></p>
-                </article>
+                    <div class="project-card">
+                        <h4>Responsive Image Gallery</h4>
+                        <p>Using picture element and Flexbox for responsive layouts.</p>
+                        <h5>Technologies Used:</h5>
+                        <ul>
+                            <li>HTML5 Picture Element</li>
+                            <li>CSS Flexbox Layout</li>
+                            <li>Accessible image alt text</li>
+                            <li>Mobile-first responsive design</li>
+                        </ul>
+                        <p><a href="#details-gallery">View project details →</a></p>
+                    </div>
+                </div>
             </section>
 
+            <!-- COMPLETED PROJECTS SECTION -->
             <section id="completed">
                 <h3>Completed Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card" id="details-recipe">
+                        <h4>Recipe Website - Complete</h4>
+                        <p>Status: <strong>Published</strong></p>
+                        <h5>Technologies Used:</h5>
+                        <ul>
+                            <li>HTML5 Semantic Elements</li>
+                            <li>Microdata for recipes</li>
+                            <li>Accessible form controls</li>
+                        </ul>
+                        <blockquote>
+                            "This project taught me the importance of <em>proper document structure</em> for both users
+                            and
+                            search engines."
+                        </blockquote>
+                        <h5>What I Learned</h5>
+                        <p>This project taught me that even content as seemingly simple as a recipe benefits enormously
+                            from
+                            semantic structure. Screen reader users can navigate directly to ingredients, instructions,
+                            or
+                            cooking times using heading navigation.</p>
+                    </div>
 
-                <article id="details-recipe">
-                    <h4>Recipe Website - Complete</h4>
-                    <p>Status: <strong>Published</strong></p>
+                    <div class="project-card" id="details-docs">
+                        <h4>Documentation Portal - Complete</h4>
+                        <p>Status: <strong>Deployed</strong></p>
+                        <h5>Key Achievements:</h5>
+                        <ul>
+                            <li>Implemented comprehensive skip links</li>
+                            <li>Created accessible navigation system</li>
+                            <li>Tested with multiple screen readers</li>
+                            <li>WCAG 2.1 AA compliant</li>
+                        </ul>
+                    </div>
 
-                    <h5>Technologies Used:</h5>
-                    <ul>
-                        <li>HTML5 Semantic Elements</li>
-                        <li>Microdata for recipes</li>
-                        <li>Accessible form controls</li>
-                    </ul>
-
-                    <blockquote>
-                        "This project taught me the importance of <em>proper document structure</em> for both users and
-                        search engines."
-                    </blockquote>
-                </article>
-
-                <h4>What I Learned</h4>
-                <p>This project taught me that even content as seemingly simple as a recipe benefits enormously from
-                    semantic structure. Screen reader users can navigate directly to ingredients, instructions, or
-                    cooking times using heading navigation. Search engines better understand recipe components,
-                    improving visibility. The code is also more maintainable—adding a new recipe means following a clear
-                    pattern rather than reinventing structure each time.</p>
-
+                    <div class="project-card" id="details-gallery">
+                        <h4>Portfolio Site - Complete</h4>
+                        <p>Status: <strong>Live</strong></p>
+                        <h5>Technologies Used:</h5>
+                        <ul>
+                            <li>Semantic HTML5</li>
+                            <li>CSS Flexbox Layout</li>
+                            <li>Responsive Design</li>
+                            <li>Accessibility First Approach</li>
+                        </ul>
+                        <p>This portfolio site demonstrates all the principles I've learned throughout this course.</p>
+                    </div>
+                </div>
             </section>
 
+            <!-- PROJECT GOALS SECTION -->
             <section>
-                <article id="details-docs">
-                    <h4>Documentation Portal - Complete</h4>
-                    <p>Status: <strong>Deployed</strong></p>
-
-                    <h5>Key Achievements:</h5>
-                    <ul>
-                        <li>Implemented comprehensive skip links</li>
-                        <li>Created accessible navigation system</li>
-                        <li>Tested with multiple screen readers</li>
-                    </ul>
-                </article>
-
                 <h3>Project Goals</h3>
                 <ol>
                     <li>Implement full WCAG 2.1 AA compliance</li>
@@ -119,6 +143,7 @@
         </article>
     </main>
 
+    <!-- BOX MODEL DEMONSTRATION SECTION -->
     <section id="box-model-demo">
         <h3>Box Model Demonstration</h3>
         <p>This example shows the difference between default content-box and border-box sizing.</p>
@@ -141,6 +166,7 @@
     <footer>
         <p>&copy; 2026 Dylan Corman. All content created with semantic HTML5.</p>
         <p>View the <a href="index.html">homepage</a> or learn <a href="about.html">more about me</a>.</p>
+        <p><a href="#top">Return to top</a></p>
     </footer>
 </body>
 

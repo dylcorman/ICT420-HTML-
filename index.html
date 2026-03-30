@@ -25,76 +25,127 @@
     </header>
 
     <main>
-        <article>
-            <header>
-                <h2>Welcome to My Portfolio</h2>
-            </header>
+        <!-- TWO-COLUMN LAYOUT USING FLEXBOX -->
+        <div class="two-column-layout">
 
-            <section id="current-focus">
-                <h3>Current Focus</h3>
-                <picture>
-                    <source srcset="media/berserker-large.jpg" media="(min-width: 701px)">
-                    <source srcset="media/berserker-small.jpg" media="(max-width: 700px)">
-                    <img src="media/berserker-large.jpg" alt="Berseker armor from the manga Berserk.">
-                </picture>
-                <p>I'm currently building websites with <strong>semantic HTML5</strong> to create accessible,
-                    well-structured web experiences.</p>
+            <!-- LEFT COLUMN: Main Content -->
+            <div class="content-main">
+                <article>
+                    <header>
+                        <h2>Welcome to My Portfolio</h2>
+                    </header>
 
-                <blockquote>
-                    "Good HTML is the foundation of the web. Without solid structure, no amount of styling can create a
-                    truly accessible experience."
-                    <cite>– My Development Philosophy</cite>
-                </blockquote>
-                <p>I believe that <strong>semantic HTML</strong> forms the foundation of an accessible, maintainable,
-                    and future-proof web. When we use elements for their intended meaning rather than their appearance,
-                    we create websites that work for everyone, regardless of how they access the content.</p>
-            </section>
+                    <section id="current-focus">
+                        <h3>Current Focus</h3>
+                        <picture>
+                            <source srcset="media/berserker-large.jpg" media="(min-width: 701px)">
+                            <source srcset="media/berserker-small.jpg" media="(max-width: 700px)">
+                            <img src="media/berserker-large.jpg" alt="Berseker armor from the manga Berserk.">
+                        </picture>
+                        <p>I'm currently building websites with <strong>semantic HTML5</strong> to create accessible,
+                            well-structured web experiences.</p>
 
-            <section>
-                <h3>Current Learning Focus</h3>
-                <p>I'm currently deepening my understanding of HTML5's semantic elements and how they interact with
-                    document outlines. This includes studying proper heading hierarchy, landmark regions, and the
-                    nuanced differences between <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code>.</p>
+                        <blockquote>
+                            "Good HTML is the foundation of the web. Without solid structure, no amount of styling can
+                            create a
+                            truly accessible experience."
+                            <cite>– My Development Philosophy</cite>
+                        </blockquote>
+                        <p>I believe that <strong>semantic HTML</strong> forms the foundation of an accessible,
+                            maintainable,
+                            and future-proof web. When we use elements for their intended meaning rather than their
+                            appearance,
+                            we create websites that work for everyone, regardless of how they access the content.</p>
+                    </section>
 
-                <h4>Key Areas of Study:</h4>
-                <ul>
-                    <li><strong>Document Structure:</strong> Creating clear, logical outlines using heading levels that
-                        don't skip</li>
-                    <li><strong>Landmark Regions:</strong> Implementing <code>&lt;header&gt;</code>,
-                        <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> correctly
-                    </li>
-                    <li><strong>Content Grouping:</strong> Knowing when to use <code>&lt;article&gt;</code> vs
-                        <code>&lt;section&gt;</code>
-                    </li>
-                    <li><strong>Embedded Content:</strong> Using the <code>&lt;picture&gt;</code> element for responsive
-                        images without CSS</li>
-                </ul>
-                <p>Learn more about semantic HTML from the <a href="https://www.w3.org/TR/html52/" target="_blank"
-                        rel="noopener">official W3C HTML5 specification</a>.</p>
-            </section>
+                    <section>
+                        <h3>Current Learning Focus</h3>
+                        <p>I'm currently deepening my understanding of HTML5's semantic elements and how they interact
+                            with
+                            document outlines. This includes studying proper heading hierarchy, landmark regions, and
+                            the
+                            nuanced differences between <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code>.
+                        </p>
 
-            <section>
-                <h3>Recent Updates</h3>
-                <ul>
-                    <li>Mastering semantic sectioning elements</li>
-                    <li>Learning proper document outline structure</li>
-                    <li>Implementing accessible navigation patterns</li>
-                </ul>
-                <p><a href="#current-focus">Back to Current Focus</a></p>
-            </section>
-        </article>
+                        <h4>Key Areas of Study:</h4>
+                        <ul>
+                            <li><strong>Document Structure:</strong> Creating clear, logical outlines using heading
+                                levels that
+                                don't skip</li>
+                            <li><strong>Landmark Regions:</strong> Implementing <code>&lt;header&gt;</code>,
+                                <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>
+                                correctly
+                            </li>
+                            <li><strong>Content Grouping:</strong> Knowing when to use <code>&lt;article&gt;</code> vs
+                                <code>&lt;section&gt;</code>
+                            </li>
+                            <li><strong>Embedded Content:</strong> Using the <code>&lt;picture&gt;</code> element for
+                                responsive
+                                images without CSS</li>
+                        </ul>
+                        <p>Learn more about semantic HTML from the <a href="https://www.w3.org/TR/html52/"
+                                target="_blank" rel="noopener">official W3C HTML5 specification</a>.</p>
+                    </section>
 
-        <aside>
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="projects.html#current">Current Projects</a></li>
-                <li><a href="about.html#skills">My Skills</a></li>
-                <li><a href="about.html#contact">Contact Info</a></li>
-            </ul>
-        </aside>
+                    <section>
+                        <h3>Recent Updates</h3>
+                        <ul>
+                            <li>Mastering semantic sectioning elements</li>
+                            <li>Learning proper document outline structure</li>
+                            <li>Implementing accessible navigation patterns</li>
+                        </ul>
+                        <p><a href="#current-focus">Back to Current Focus</a></p>
+                    </section>
+                </article>
+            </div>
+
+            <!-- RIGHT COLUMN: Sidebar -->
+            <div class="content-sidebar">
+                <aside>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="projects.html#current">Current Projects</a></li>
+                        <li><a href="about.html#skills">My Skills</a></li>
+                        <li><a href="about.html#contact">Contact Info</a></li>
+                    </ul>
+                </aside>
+
+                <!-- NESTED FLEXBOX EXAMPLE -->
+                <div class="nested-layout">
+                    <h3>Latest Updates</h3>
+                    <div class="nested-item">
+                        <div class="nested-marker">📌</div>
+                        <div>Added two-column layout with Flexbox</div>
+                    </div>
+                    <div class="nested-item">
+                        <div class="nested-marker">🎨</div>
+                        <div>New responsive design improvements</div>
+                    </div>
+                    <div class="nested-item">
+                        <div class="nested-marker">♿</div>
+                        <div>Accessibility enhancements</div>
+                    </div>
+                    <div class="nested-item">
+                        <div class="nested-marker">📱</div>
+                        <div>Mobile-first responsive layout</div>
+                    </div>
+                </div>
+
+                <!-- Additional sidebar content -->
+                <div class="contact-highlight">
+                    <h3>Let's Connect</h3>
+                    <p>Interested in collaborating or have a project in mind?</p>
+                    <p><a href="about.html#contact">Get in touch →</a></p>
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
+        <p>&copy; 2026 Dylan Corman. All content created with semantic HTML5.</p>
+        <p>View the <a href="projects.html">projects page</a> or learn <a href="about.html">more about me</a>.</p>
+        <p><a href="#top">Return to top</a></p>
     </footer>
 </body>
 
