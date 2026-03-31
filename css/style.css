@@ -241,7 +241,6 @@ footer {
     text-align: center;
 }
 
-/* FIXED: Footer text color - better contrast */
 footer p {
     max-width: none;
     text-indent: 0;
