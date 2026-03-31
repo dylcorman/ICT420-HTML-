@@ -45,7 +45,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #16a085;
+    color: #0e6b58;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
@@ -406,29 +406,29 @@ footer {
 /* Target unique elements with specific ID attributes */
 
 #background {
-    background-color: #d5dbdb;
+    background-color: #bdc3c7;
     color: #1e1e1e;
 }
 
 #skills {
-    background-color: #a9c4c4;
-    color: #1e1e1e;
+    background-color: #7f8c8d;
+    color: #ffffff;
 }
 
 /* Target elements that are nested inside other elements */
 
 article section p {
-    color: #2c3e50;/
+    color: #2c3e50;
 }
 
 footer p {
-    color: #bdc3c7;
+    color: #ecf0f1;
     font-size: 0.9rem;
 }
 
 blockquote {
     background-color: #e8e8e8;
-    color: #1e1e1e;
+    color: #000000;
 }
 
 
