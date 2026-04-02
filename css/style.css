@@ -53,7 +53,6 @@ h4 {
     font-size: 1.25rem;
     font-weight: 600;
     font-style: italic;
-    color: #000000;
 }
 
 p {
@@ -377,7 +376,7 @@ button:hover {
 
 /* ===== LINK STYLING ===== */
 a:link {
-    color: #0000ee;
+    color: #551a8b;
     text-decoration: underline;
 }
 
@@ -473,7 +472,7 @@ section p {
 
 /* Background section */
 #background {
-    background-color: #e8e8e8;
+    background-color: #d0d0d0;
     color: #000000;
 }
 
