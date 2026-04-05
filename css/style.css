@@ -195,7 +195,7 @@ nav ul li a:hover::after {
 }
 
 .nested-item:hover {
-    background-color: #d0d0d0;
+    background-color: #bfbfbf;
 }
 
 .nested-marker {
@@ -331,7 +331,7 @@ ul:not(nav ul):not(.nested-layout ul) li::before {
 
 /* ===== BLOCKQUOTE STYLING ===== */
 blockquote {
-    background: #e8e8e8;
+    background: #dddddd;
     border-left: 6px solid #000000;
     border-radius: 0 20px 20px 0;
     padding: 1.5rem 2rem;
@@ -376,21 +376,21 @@ button:hover {
 
 /* ===== LINK STYLING ===== */
 a:link {
-    color: #551a8b;
+    color: #003366;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #551a8b;
+    color: #4b0082;
 }
 
 a:hover {
-    color: #cc0000;
+    color: #990000;
     background-color: transparent;
 }
 
 a:active {
-    color: #ff6600;
+    color: #cc3300;
 }
 
 /* ===== MAIN LAYOUT BOXES ===== */
@@ -472,13 +472,13 @@ section p {
 
 /* Background section */
 #background {
-    background-color: #d0d0d0;
+    background-color: #c2c2c2;
     color: #000000;
 }
 
 /* Contact section */
 #contact {
-    background-color: #f0f0f0;
+    background-color: #e0e0e0;
     color: #000000;
 }
 
