@@ -393,6 +393,25 @@ a:active {
     color: #cc3300;
 }
 
+/* Override links on dark backgrounds */
+#skills a:link,
+header a:link,
+footer a:link {
+    color: #ffffff;
+}
+
+#skills a:visited,
+header a:visited,
+footer a:visited {
+    color: #d4b8ff;
+}
+
+#skills a:hover,
+header a:hover,
+footer a:hover {
+    color: #cccccc;
+}
+
 /* ===== MAIN LAYOUT BOXES ===== */
 main {
     width: 90%;
