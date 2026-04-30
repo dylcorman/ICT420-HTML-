@@ -80,9 +80,8 @@ article header {
     border-radius: 0;
 }
 
-article header h1,
-article header h2,
-article header p {
+body > header h1,
+body > header p {
     color: #ffffff;
 }
 
